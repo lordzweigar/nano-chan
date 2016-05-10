@@ -1,5 +1,0 @@
-import sopel.module
-
-@sopel.module.commands('hello')
-def helloworld(bot, trigger):
-        bot.say('Hello!')
